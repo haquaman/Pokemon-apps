@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         designSize: Size(393, 830),
         minTextAdapt: true,
         splitScreenMode: true,
-        builder: (_) {
+        builder: (context, child) {
           return GetMaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Pokedex',
